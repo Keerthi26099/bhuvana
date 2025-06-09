@@ -1,0 +1,18 @@
+pipeline{
+agent any
+stages{
+stage("clone")
+{
+steps{
+git url 
+}
+stage("build")
+{
+steps{
+sh Java c sh.java
+{
+stage("run")
+{
+steps{
+sh java h
+}
